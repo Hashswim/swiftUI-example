@@ -12,6 +12,7 @@
 		116AD7012AF752EE008957B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116AD7002AF752EE008957B9 /* Assets.xcassets */; };
 		116AD7042AF752EE008957B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116AD7032AF752EE008957B9 /* Preview Assets.xcassets */; };
 		116AD70C2AFCECFD008957B9 /* DynamicStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */; };
+		116AD70E2AFD04FB008957B9 /* BindingAndForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AD70D2AFD04FB008957B9 /* BindingAndForEachView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		116AD7032AF752EE008957B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		116AD70A2AF75AFA008957B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackView.swift; sourceTree = "<group>"; };
+		116AD70D2AFD04FB008957B9 /* BindingAndForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingAndForEachView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				116AD6FC2AF752ED008957B9 /* swiftUI_exampleApp.swift */,
 				116AD6FE2AF752ED008957B9 /* ContentView.swift */,
 				116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */,
+				116AD70D2AFD04FB008957B9 /* BindingAndForEachView.swift */,
 				116AD7002AF752EE008957B9 /* Assets.xcassets */,
 				116AD7022AF752EE008957B9 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 				116AD70C2AFCECFD008957B9 /* DynamicStackView.swift in Sources */,
 				116AD6FF2AF752ED008957B9 /* ContentView.swift in Sources */,
 				116AD6FD2AF752ED008957B9 /* swiftUI_exampleApp.swift in Sources */,
+				116AD70E2AFD04FB008957B9 /* BindingAndForEachView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
