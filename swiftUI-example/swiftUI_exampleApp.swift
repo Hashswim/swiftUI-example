@@ -11,7 +11,8 @@ import SwiftUI
 struct swiftUI_exampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            DynamicStackView()
         }
     }
 }

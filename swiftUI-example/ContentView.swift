@@ -14,15 +14,15 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
-                .font(Font.largeTitle)
-        }
+                .font(Font.caption2)
+        }.padding()
     }
     var body: some View {
         HStack {
             mystack
-                .padding()
             mystack
         }
+        .padding()
     }
 }
 

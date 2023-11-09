@@ -11,6 +11,7 @@
 		116AD6FF2AF752ED008957B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AD6FE2AF752ED008957B9 /* ContentView.swift */; };
 		116AD7012AF752EE008957B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116AD7002AF752EE008957B9 /* Assets.xcassets */; };
 		116AD7042AF752EE008957B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116AD7032AF752EE008957B9 /* Preview Assets.xcassets */; };
+		116AD70C2AFCECFD008957B9 /* DynamicStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		116AD6FE2AF752ED008957B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		116AD7002AF752EE008957B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116AD7032AF752EE008957B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		116AD70A2AF75AFA008957B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		116AD6FB2AF752ED008957B9 /* swiftUI-example */ = {
 			isa = PBXGroup;
 			children = (
+				116AD70A2AF75AFA008957B9 /* Info.plist */,
 				116AD6FC2AF752ED008957B9 /* swiftUI_exampleApp.swift */,
 				116AD6FE2AF752ED008957B9 /* ContentView.swift */,
+				116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */,
 				116AD7002AF752EE008957B9 /* Assets.xcassets */,
 				116AD7022AF752EE008957B9 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116AD70C2AFCECFD008957B9 /* DynamicStackView.swift in Sources */,
 				116AD6FF2AF752ED008957B9 /* ContentView.swift in Sources */,
 				116AD6FD2AF752ED008957B9 /* swiftUI_exampleApp.swift in Sources */,
 			);
@@ -269,7 +275,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-example/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "swiftUI-example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -297,7 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-example/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "swiftUI-example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
