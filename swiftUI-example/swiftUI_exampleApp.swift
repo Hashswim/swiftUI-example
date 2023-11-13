@@ -13,7 +13,8 @@ struct swiftUI_exampleApp: App {
         WindowGroup {
 //            ContentView()
 //            DynamicStackView()
-            BindingAndForEachView()
+//            BindingAndForEachView()
+            ObservedObjectExampleView()
         }
     }
 }
