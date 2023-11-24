@@ -14,6 +14,7 @@
 		116AD70C2AFCECFD008957B9 /* DynamicStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */; };
 		116AD70E2AFD04FB008957B9 /* BindingAndForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AD70D2AFD04FB008957B9 /* BindingAndForEachView.swift */; };
 		116AD7102B01F3E5008957B9 /* ObservedObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AD70F2B01F3E5008957B9 /* ObservedObjectExampleView.swift */; };
+		116AE3562B10AB300080E1B3 /* AlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116AE3552B10AB300080E1B3 /* AlignmentExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackView.swift; sourceTree = "<group>"; };
 		116AD70D2AFD04FB008957B9 /* BindingAndForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingAndForEachView.swift; sourceTree = "<group>"; };
 		116AD70F2B01F3E5008957B9 /* ObservedObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectExampleView.swift; sourceTree = "<group>"; };
+		116AE3552B10AB300080E1B3 /* AlignmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				116AD70A2AF75AFA008957B9 /* Info.plist */,
 				116AD6FC2AF752ED008957B9 /* swiftUI_exampleApp.swift */,
+				116AE3552B10AB300080E1B3 /* AlignmentExample.swift */,
 				116AD6FE2AF752ED008957B9 /* ContentView.swift */,
 				116AD70B2AFCECFD008957B9 /* DynamicStackView.swift */,
 				116AD70D2AFD04FB008957B9 /* BindingAndForEachView.swift */,
@@ -150,6 +153,7 @@
 			files = (
 				116AD70C2AFCECFD008957B9 /* DynamicStackView.swift in Sources */,
 				116AD6FF2AF752ED008957B9 /* ContentView.swift in Sources */,
+				116AE3562B10AB300080E1B3 /* AlignmentExample.swift in Sources */,
 				116AD7102B01F3E5008957B9 /* ObservedObjectExampleView.swift in Sources */,
 				116AD6FD2AF752ED008957B9 /* swiftUI_exampleApp.swift in Sources */,
 				116AD70E2AFD04FB008957B9 /* BindingAndForEachView.swift in Sources */,

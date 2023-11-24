@@ -14,7 +14,8 @@ struct swiftUI_exampleApp: App {
 //            ContentView()
 //            DynamicStackView()
 //            BindingAndForEachView()
-            ObservedObjectExampleView()
+//            ObservedObjectExampleView()
+            AlignmentExample()
         }
     }
 }
